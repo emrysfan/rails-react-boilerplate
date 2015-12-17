@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Rails with React Starter Kit</title>
+  <%= webpack_stylesheet_tag 'home.css' %>
+  <%= webpack_stylesheet_tag 'vendor.css' %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+  <div id="home"></div>
+  <%= webpack_javascript_tag "vendor.js" %>
+  <%= webpack_javascript_tag "home.js" %>
+</body>
+</html>

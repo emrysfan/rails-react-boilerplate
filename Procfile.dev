@@ -1,0 +1,2 @@
+rails: bundle exec rails s -p 4001
+webpack: cd frontend && webpack-dev-server --config=webpack.development.config.js --inline --port 9001
